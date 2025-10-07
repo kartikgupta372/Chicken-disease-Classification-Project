@@ -18,7 +18,7 @@ list_of_files = [
     
     # Main source code directory structure
     f"src/{project_name}/__init__.py",               # Main package init file
-    f"src/{project_name}/components/__init__.py",         # ML components data ingestion, training, etc.)
+    f"src/{project_name}/components/__init__.py",         # ML components data ingestion, training, etc.
     f"src/{project_name}/utils/__init__.py",              # Utility functions
     f"src/{project_name}/config/__init__.py",             # Configuration package
     f"src/{project_name}/config/configuration.py",       # Main configuration file
@@ -32,7 +32,8 @@ list_of_files = [
     "params.yaml",                # Parameters for ML experiments
     "requirements.txt",           # Python dependencies
     "setup.py",                   # Package setup file
-    "research/trials.ipynb",      # Jupyter notebook for research/experiments
+    "research/trials.ipynb",     # Jupyter notebook for research/experiments
+    "templates/index.html",      # HTML template file
 ]
 
 # Loop through each file path in the list to create directory structure
